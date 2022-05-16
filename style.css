@@ -1,0 +1,41 @@
+body{
+    display:flex;
+    justify-content: center;
+    background-color: antiquewhite;
+}
+
+.container{
+    margin-top: 2em;
+    width: 18em;
+}
+
+.inputContainer,.outputContainer{
+    height: 15em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.inputContainer{
+    background-color: #FFD700
+    ;
+   
+}
+
+.outputContainer{
+    background-color: black;
+    color: white;
+    word-break: break-all;
+}
+
+input {
+    height: 1em;
+    font-size: 2em;
+    font-weight: bold;
+    border: none;
+    width: 3em;
+    text-align: center;
+    background-color: #FFD700;
+    outline: none;
+}
